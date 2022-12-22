@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+
+        binding.btMenu.setOnClickListener {
+
+        };
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
